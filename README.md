@@ -1,11 +1,14 @@
 # Discord Hall of Fame Python Bot
 
-A bot that allows messages with a certain emoji to be added to a list of messages that are displayed in a channel.
+A bot that allows text or embedded messages with a user defined number of reactions to be copied to a seperate user defined channel. This can be useful to generate a section of noteable posts.
 
 ## Dependencies
 
+Here are the dependencies used in this project, which can be installed by running `pip3 install -r requirements.txt`:
+
 - [discord.py](https://discordpy.readthedocs.io/en/stable/index.html)
 - [python-dotenv](https://pypi.org/project/python-dotenv/)
+- [aiohttp](https://docs.aiohttp.org/en/stable/)
 
 ## Setup
 
